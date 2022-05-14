@@ -8,7 +8,7 @@ def item_count_from_index():
     try:
         input_index = int(input("Enter a number as list index to count how many times the items at that index appears: "))
         return user_list.count(user_list[input_index])
-    except ValueError:
+    except (ValueError, IndexError):
         return '""'
 
 print(item_count_from_index())
