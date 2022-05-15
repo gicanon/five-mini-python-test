@@ -42,7 +42,7 @@ For each question, I created a file to solve the questions.
 
 4. For this solution, I used the keyword `split()` to create a list by entering elements separated by space. To check if the input for the index is not an integer (ValueError) or out of bounds (IndexError), I used the command `try...except`. If the input is correct, it should return the quantity of the item at that index, and if not, it should return the string '""'.
 
-5. Like solution 4, I also used the `split` keyword to create a list of the input. I solved the question by using the `try...except` command. The while loop will iterate through the list, and If one of the items in the list is an integer, the function will append the integer into a new list. If the item is not an integer, the function will go to the next item from the list. After the list has been checked, the function will search for the highest number, `max`, and multiply it with the length of the list. The function return either the number or an empty string '""'.
+5. Like solution 4, I also used the `split()` keyword to create a list of the input. I solved the question by using the `try...except` command. The while loop will iterate through the list, and If one of the items in the list is an integer, the function will append the integer into a new list. If the item is not an integer, the function will go to the next item from the list. After the list has been checked, the function will search for the highest number, `max`, and multiply it with the length of the list. The function return either the number or an empty string '""'.
 
 
 ### Dependencies
